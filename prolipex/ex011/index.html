@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML</title>
+    <link rel="shortcut icon" href="lol icon.ico" type="image/x-icon">
+</head>
+<body>
+    <h1>imagem dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes
+        ou simplesmente aumente e diminua o tamanho do seu navegador.
+    </p>
+    <picture>
+        <source media="(min-width: 5050px)" srcset="imagens/foto-m.png" 
+        type="image/png">
+        <img src="imagens/foto-m.png" alt="Imagem flexivel">
+    </picture>
+
+    <h1>Reprofuzindo audios</h1>
+    <p>Vamos aprender a reproduzir audios em HTML</p>
+    <audio preload="metadata" autoplay controls loop>
+        <source src="midia/Cameras-ALBIS.mp3" type="audio/mpeg">
+        <source src="midia/Cameras-ALBIS.mp3" type="audio/ogg">
+        <source src="midia/Cameras-ALBIS.mp3" type="audio/wav">
+        <p>infelizmente seu navegador não consegue reproduzir. <a href="midia/Cameras-ALBIS.mp3">Clique aqui para baixar o audio MP3</a></p>
+    </audio>
+</body>
+</html>
