@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+
+body {
+    background-image: black url(imagens/background001.jpg) center center no-repeat ;
+}
+
+#cabecalho{
+    background-color: black;
+}
