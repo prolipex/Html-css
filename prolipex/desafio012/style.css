@@ -1,10 +1,27 @@
 @charset "UTF-8";
 
 
-body {
-    background-image: black url(imagens/background001.jpg) center center no-repeat ;
+body#fundo {
+    background-image: url(imagens/background001.jpg);
+}
+
+p{
+    text-indent: 10px;
+    color: white;
 }
 
 #cabecalho{
+    height: 200px;
     background-color: black;
+    color: white;
+    text-align: center;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
